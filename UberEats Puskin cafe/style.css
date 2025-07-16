@@ -1,0 +1,257 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Header {
+    display: flex;
+    box-shadow: 0px 5px 5px -3px #26262629;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.Logo a {
+    display: flex;
+    padding: 30px 0 0 20px;
+    size: 26px;
+    gap: 10px;
+}
+
+.HeaderButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-outline-secondary {
+    border: 2px, rgb(79, 79, 79);
+    color: black;
+}
+
+.btn-outline-light {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.Search {
+    padding: 30px 20px 0 20px;
+}
+
+
+.search-input {
+    border: none;               
+    border-bottom: 1px solid #ccc; 
+    border-radius: 0;          
+    padding-left: 0;  
+    background-color: transparent;
+}
+
+.search-input:focus {
+  box-shadow: none;           
+  border-bottom-color: #57AD56; 
+}
+
+.Content {
+    display: flex;
+    justify-content: center; 
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.Footer {
+    background-color: #262626;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.LogoFoot a{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 20px 0;
+    gap: 10px;
+}
+
+.ContainerOne {
+    padding: 20px 0 20px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    columns: 2;
+}
+
+.ContainerTwo {
+    padding: 40px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.ContainerThree {
+    padding: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.FooterUber a {
+    display: flex;
+}
+
+.dropdown {
+    padding: 20px 0 30px 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle {
+    background-color: #3B3B3B;
+}
+
+.btn-facebook { 
+    background-color: #1877F2; 
+    color: white; 
+}
+.btn-telegram {
+    background-color: #0088CC; 
+    color: white; 
+}
+.btn-vk { 
+    background-color: #0077FF; 
+    color: white;
+}
+
+.Buttons {
+    display: inline;
+    font-size: 50px;
+}
+
+.OneCol {
+    position: static;
+}
+
+.TwoCol {
+    columns: 2;
+    width: 1000px;
+    gap: 50px;
+    max-width: 2000ch;
+}
+
+.TwoCol a {
+    color: white;
+}
+
+.app-btn {
+    height: 54px;
+    padding: 0 20px;
+    border-radius: 10px !important;
+    background-color: #3B3B3B;
+}
+
+.app-btn:hover {
+    background-color: #5b6269;
+}
+
+.app-btn .bi {
+    font-size: 1.8rem;
+}
+
+.ContainerThree p {
+    color: white;
+}
+
+
+/* SHOP.HTML */
+
+.TableLogo {
+    display: inline-flexbox;
+    background-color: white;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+.UnderTable {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.UnderTable .custom-btn {
+    background-color: #262626;
+    border-radius: 4em;
+}
+
+.UnderLogo {
+    position: relative;
+    width: 100%;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.TableLogo-overlay {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.TableLogo-overlay img {
+    width: 50%;
+    border-radius: 10em;
+    padding: 10px;
+}
+
+.Choice {
+    padding: 20px 0 20px 0;
+    box-shadow: 0 0 6px 0 rgb(231, 230, 230);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Choice a {
+    color: #333;
+    text-decoration: none; 
+    position: relative; 
+}
+
+.Choice a:hover {
+    color: #327430; 
+}
+
+.Choice a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #327430;
+    bottom: 0; 
+}
+
+.ContentShop {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+    padding: 20px;
+}
