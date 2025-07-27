@@ -106,72 +106,54 @@ a {
 
 }
 
-.FooterUber a {
-    display: flex;
-}
-
-.dropdown {
-    padding: 20px 0 30px 0;
-}
-
-.dropdown-toggle::after {
-    display: none;
-}
-
-.dropdown-toggle {
-    background-color: #3B3B3B;
-}
-
-.btn-facebook { 
-    background-color: #1877F2; 
-    color: white; 
-}
-.btn-telegram {
-    background-color: #0088CC; 
-    color: white; 
-}
-.btn-vk { 
-    background-color: #0077FF; 
+.Footer {
+    background-color: #343434;
     color: white;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
 }
 
-.Buttons {
-    display: inline;
-    font-size: 50px;
+.LogoFoot {
+    margin-bottom: 1.5rem;
 }
 
-.OneCol {
-    position: static;
+.ContainerOne {
+    margin-bottom: 2rem;
 }
 
-.TwoCol {
-    columns: 2;
-    width: 1000px;
-    gap: 50px;
-    max-width: 2000ch;
+.TwoCol p {
+    margin-bottom: 0.5rem;
 }
 
 .TwoCol a {
     color: white;
+    text-decoration: none;
+}
+
+.TwoCol a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    min-width: 10rem;
 }
 
 .app-btn {
-    height: 54px;
-    padding: 0 20px;
-    border-radius: 10px !important;
-    background-color: #3B3B3B;
+    min-width: 180px;
 }
 
-.app-btn:hover {
-    background-color: #5b6269;
-}
-
-.app-btn .bi {
-    font-size: 1.8rem;
-}
-
-.ContainerThree p {
-    color: white;
+@media (max-width: 767.98px) {
+    .Buttons {
+        justify-content: center !important;
+    }
+    
+    .TwoCol {
+        margin-top: 1.5rem;
+    }
+    
+    .TwoCol .col-6 {
+        margin-bottom: 1rem;
+    }
 }
 
 

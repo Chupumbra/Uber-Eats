@@ -85,13 +85,16 @@
 
     <div class="container-fluid px-0">
         <div class="Footer">
-            <div class="LogoFoot">
-                <a href="#"><b style="color: white;">UBER</b>
-                    <p style="color: #57AD56">EATS</p></a>
+            <div class="LogoFoot text-center mb-3">
+                <a href="#" class="d-inline-block">
+                    <b style="color: white; font-size: 1.5rem;">UBER</b>
+                    <p style="color: #57AD56; font-size: 1.5rem; margin-top: -5px;">EATS</p>
+                </a>
             </div>
-            <div class="ContainerOne">
-                <div class="OneCol">
-                    <div class="dropdown">
+
+            <div class="ContainerOne row mx-0">
+                <div class="OneCol col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="dropdown d-flex justify-content-center justify-content-md-start mb-3">
                         <button class="btn btn-secondary dropdown-toggle language-button" type="button" 
                             id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-globe"></i> Русский
@@ -103,14 +106,19 @@
                             <li><a class="dropdown-item" href="#"><i class="bi bi-translate"></i> Українська</a></li>
                         </ul>
                     </div>
-                    <div class="FooterUber">
-                        <a href=#><p style="color: #57AD56;">#</p><p style="color: white;">UberEats</p></a>
+                    
+                    <div class="FooterUber d-flex justify-content-center justify-content-md-start mb-3">
+                        <a href="#">
+                            <p style="color: #57AD56; display: inline;">#</p>
+                            <p style="color: white; display: inline;">UberEats</p>
+                        </a>
                     </div>
-                    <div class="Buttons">
-                        <a href="#" class="btn btn-primary mb-2" style="background-color: #1877F2; border-color: #1877F2">
+                    
+                    <div class="Buttons d-flex flex-column flex-sm-row gap-2 justify-content-center justify-content-md-start">
+                        <a href="#" class="btn btn-primary" style="background-color: #1877F2; border-color: #1877F2;">
                             <i class="bi bi-facebook"></i> Facebook
                         </a>
-                        <a href="#" class="btn btn-primary mb-2" style="background-color: #0088CC; border-color: #0088CC;">
+                        <a href="#" class="btn btn-primary" style="background-color: #0088CC; border-color: #0088CC;">
                             <i class="bi bi-telegram"></i> Telegram
                         </a>
                         <a href="#" class="btn btn-primary" style="background-color: #0077FF; border-color: #0077FF;">
@@ -118,19 +126,26 @@
                         </a>
                     </div>
                 </div>
-                <div class="TwoCol">
-                    <a href=#><p>Об UberEats</p></a>
-                    <a href=#><p>Станьте партнёром по доставке</p></a>
-                    <a href=#><p>Станьте парнёром-рестораном</p></a>
-                    <a href=#><p>Все города</p></a>
-                    <a href=#><p>Цены</p></a>
-                    <a href=#><p>Помощь</p></a>
-                    <a href=#><p>FAQs</p></a>
+
+                <div class="TwoCol col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#"><p>Об UberEats</p></a>
+                            <a href="#"><p>Станьте партнёром по доставке</p></a>
+                            <a href="#"><p>Станьте парнёром-рестораном</p></a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#"><p>Все города</p></a>
+                            <a href="#"><p>Цены</p></a>
+                            <a href="#"><p>Помощь</p></a>
+                            <a href="#"><p>FAQs</p></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div class="ContainerTwo">
-                <div class="d-flex gap-3">
+            <div class="ContainerTwo mt-4">
+                <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
                     <a href="#" class="app-btn btn btn-dark d-flex align-items-center">
                         <i class="bi bi-apple me-3"></i>
                         <div>
@@ -149,11 +164,13 @@
                 </div>
             </div>
 
-            <div class="ContainerThree">
-                <p>© 2017 Uber Technologies Inc.</p>
-                <a href=#><p>Обработка персональных данных</p></a>
-                <a href=#><p>Пользовательское соглашение</p></a>
-                <button id="scrollTopBtn" class="btn btn-success rounded-circle p-3">
+            <div class="ContainerThree mt-4 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="d-flex flex-column flex-md-row gap-3 mb-3 mb-md-0">
+                    <p class="mb-0">© 2017 Uber Technologies Inc.</p>
+                    <a href="#"><p class="mb-0">Обработка персональных данных</p></a>
+                    <a href="#"><p class="mb-0">Пользовательское соглашение</p></a>
+                </div>
+                <button id="scrollTopBtn" class="btn btn-success rounded-circle p-2">
                     <i class="bi bi-arrow-up"></i>
                 </button>
             </div>
